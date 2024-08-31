@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logofav.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>BAUHAUS</title>
+</head>
+<body>
+
+    <!-- переключатель -->
+    <div class="switch-panel">
+        <div class="panel animate__animated animate__fadeInDown" data-section="main">
+            <div class="switch-a"><a href="#main">главная</a></div>
+            <a href="#main">01</a>
+        </div>
+        <div class="panel animate__animated animate__fadeInDown" data-section="about">
+            <div class="switch-a"><a href="#about">о&nbspнас</a></div>
+            <a href="#about">02</a>
+        </div>
+        <div class="panel animate__animated animate__fadeInDown" data-section="catalog">
+            <div class="switch-a"><a href="#catalog">каталог</a></div>
+            <a href="#catalog">03</a>
+        </div>
+        <div class="panel animate__animated animate__fadeInDown" data-section="reviews">
+            <div class="switch-a"><a href="#reviews">отзывы</a></div>
+            <a href="#reviews">04</a>
+        </div>
+        <div class="panel animate__animated animate__fadeInDown" data-section="contact">
+            <div class="switch-a"><a href="#contact">контакты</a></div>
+            <a href="#contact">05</a>
+        </div>
+    </div>
+    <!-- переключатель -->
+
+    <!-- шапка -->
+    <header id="main" class="content section" data-section="main">
+        <div class="animate__animated animate__fadeInLeft">
+            <img src="img/logofav.svg" alt="">
+        </div>
+        <nav class="animate__animated animate__fadeInLeftBig">
+            <a href="#">главная</a>
+            <a href="#about">о нас</a>
+            <a href="#catalog">каталог</a>
+            <a href="#contact">контакты</a>
+        </nav>
+        <div class="btns animate__animated animate__fadeInRightBig">
+            <div class="search">
+                <input type="text" placeholder="ПОИСК">
+                <button><img src="img/search.svg" alt=""></button>
+            </div>
+            <button id="open-popup"><img src="img/bag.svg" alt=""></button>
+        </div>
+        <div class="phone animate__animated animate__fadeInRight">
+            <a class="btn" href="#">заказать звонок</a>
+            <a href="tel:+74324434354">+ 7 [432] - 443 - 43 - 54</a>
+        </div>
+    </header>
+    <!-- шапка -->
+
+    <!-- баннер -->
+    <section class="main content">
+        <h1 class="animate__animated animate__fadeInDown">Bauhaus</h1>
+        <div class="offer">
+            <div class="animate__animated animate__animated animate__fadeInLeft">
+                <pre><span>Баухаус</span>            это энергия, красота, <br>функционал и философия в одном.</pre>
+            </div>
+            <a class="btn animate__animated animate__fadeInRight" href="#catalog"><pre>[к каталогу] [ <img src="img/Vector.svg" alt=""> ]</pre></a> 
+        </div>
+    </section>
+    <div class="slider-container animate__animated animate__fadeIn">
+        <div class="slide">
+            <img src="img/slide1.png" alt="">
+        </div>
+       
+        <div class="slide">
+            <img src="img/slide4.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="img/slide3.png" alt="">
+        </div> 
+        <div class="slide">
+            <img src="img/slide2.png" alt="">
+        </div>
+        
+        <div class="switch">
+            <button class="next wow animate__animated animate__fadeInLeftBig" onclick="plusSlide(-1)"><img src="img/next.svg" alt=""></button>
+            <button class="prev wow animate__animated animate__fadeInRightBig" onclick="plusSlide(1)"><img src="img/prev.svg" alt=""></button>   
+        </div>
+    </div>
+    <!-- баннер -->
+
+    <!-- о нас -->
+    <section id="about" class="section content py" data-section="about">
+        <div class="title wow animate__animated animate__fadeInLeft">
+            <h3>ЧТО МЫ ДЕЛАЕМ</h3>
+            <h2>О НАС</h2>
+        </div>
+        <div class="about">
+            <p class="wow animate__animated animate__fadeInDown">Мебельная компания <span style="font-weight: bold;">BAUHAUS</span> - это ведущий производитель и поставщик качественной мебели для дома и офиса. Мы предлагаем широкий ассортимент мебели, начиная от кухонных гарнитуров и спальных гарнитуров до офисных столов и стульев.</p>
+            <div class="about-content">
+                <img class="wow animate__animated animate__fadeInDown" src="img/about.png" alt="">
+                <div class="about-text">
+                    <div class="first">
+                        <span class="wow animate__animated animate__fadeInDown">Мы используем только высококачественные материалы и современные технологии производства, чтобы обеспечить долговечность и надежность нашей мебели. Мы также следим за последними тенденциями в дизайне интерьера, чтобы предложить актуальные и стильные решения.</span>
+                    </div>
+                    <span class="wow animate__animated animate__fadeInDown">Если вы ищете качественную и стильную мебель, обратитесь в компанию "Баухаус" - мы с удовольствием поможем вам создать уютный и функциональный интерьер.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- о нас -->
+
+    <!-- преимущества -->
+    <div class="advan content py">
+        <div class="advan-card wow animate__animated animate__fadeInLeft">
+            <img src="img/ad1.svg" alt="">
+            <h3>ШИРОКИЙ АССОРТИМЕНТ</h3>
+            <hr>
+            <p>Наша компания предлагает большой выбор мебели для дома и офиса, а также аксессуары и предметы интерьера.</p>
+        </div>
+        <div class="advan-card wow animate__animated animate__fadeInDown">
+            <img src="img/ad2.svg" alt="">
+            <h3>ВЫСОКОЕ КАЧЕСТВО</h3>
+            <hr>
+            <p>Наша продукция изготавливается из качественных материалов и проходит строгий контроль качества.</p>
+        </div>
+        <div class="advan-card wow animate__animated animate__fadeInRight">
+            <img src="img/ad3.svg" alt="">
+            <h3>УДОБСТВО ПОКУПКИ</h3>
+            <hr>
+            <p>Мы предлагаем все способы оплаты и доставки товаров и предоставляем услуги по консультации в выборе мебели.</p>
+        </div>
+    </div>
+    <!-- преимущества -->
+
+    <!-- каталог -->
+    <section id="catalog" class="section content py" data-section="catalog">
+        <div class="title-catalog">
+            <div class="title wow animate__animated animate__fadeInLeft">
+                <h3>ЧТО МЫ ПРЕДЛАГАЕМ</h3>
+                <h2>КАТАЛОГ</h2>
+            </div>
+            <div class="filter wow animate__animated animate__fadeInRight">
+                <p>СТОЛЫ</p>
+                <p><span>СТУЛЬЯ</span></p>
+                <p>ЛАМПЫ</p>
+                <p>ДЕКОР</p>
+                <p>САНТЕХНИКА</p>
+            </div>
+        </div>
+        <div class="catalog">
+            <div class="row">
+                <div class="item-info wow animate__animated animate__fadeInDown">
+                    <h4>СТУЛЬЯ</h4>
+                    <p>Стулья от BAUHAUS изготавливаются из высококачественных материалов, что гарантирует их долговечность и надежность. Мы предлагаем широкий выбор стульев различных форм, размеров и цветов, что позволяет подобрать подходящий вариант для любого помещения.</p>
+                </div>
+                <div class="card wow animate__animated animate__fadeInDown">
+                    <img src="img/card1.png" alt="">
+                    <img class="like" src="img/like.svg" alt="">
+                    <div class="item-title">
+                        <h6>BASE</h6>
+                        <p>20 000 ₽</p>
+                    </div>
+                    <div class="btn">
+                        <a href="#">[в корзину] [  <img src="img/Vector.svg" alt="">  ]</a>
+                    </div>
+                </div>
+                <div class="card wow animate__animated animate__fadeInDown">
+                    <img src="img/card2.png" alt="">
+                    <img class="like" src="img/like.svg" alt="">
+                    <div class="item-title">
+                        <h6>PAPPILON</h6>
+                        <p>25 000 ₽</p>
+                    </div>
+                    <div class="btn">
+                        <a href="#">[в корзину] [  <img src="img/Vector.svg" alt="">  ]</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card wow animate__animated animate__fadeInDown">
+                    <img src="img/card3.png" alt="">
+                    <img class="like" src="img/like.svg" alt="">
+                    <div class="item-title">
+                        <h6>SOIR</h6>
+                        <p>15 000 ₽</p>
+                    </div>
+                    <div class="btn">
+                        <a href="#">[в корзину] [  <img src="img/Vector.svg" alt="">  ]</a>
+                    </div>
+                </div>
+                <div class="card wow animate__animated animate__fadeInDown">
+                    <img src="img/card4.png" alt="">
+                    <img class="like" src="img/like.svg" alt="">
+                    <div class="item-title">
+                        <h6>NOIR</h6>
+                        <p>15 000 ₽</p>
+                    </div>
+                    <div class="btn">
+                        <a href="#">[в корзину] [  <img src="img/Vector.svg" alt="">  ]</a>
+                    </div>
+                </div>
+                <div class="card wow animate__animated animate__fadeInDown">
+                    <img src="img/card5.png" alt="">
+                    <img class="like" src="img/like.svg" alt="">
+                    <div class="item-title">
+                        <h6>CHIEN</h6>
+                        <p>25 000 ₽</p>
+                    </div>
+                    <div class="btn">
+                        <a href="#">[в корзину] [  <img src="img/Vector.svg" alt="">  ]</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card-info wow animate__animated animate__fadeInLeftBig">
+                    <h6>MODEDAMOUR</h6>
+                    <a href="#">Смотреть новую коллекцию <img src="img/arrow1.svg" alt=""></a>
+                </div>
+                <div class="card wow animate__animated animate__fadeInDown">
+                    <img src="img/card6.png" alt="">
+                    <img class="like" src="img/like.svg" alt="">
+                    <div class="item-title">
+                        <h6>MYSTERE</h6>
+                        <p>18 000 ₽</p>
+                    </div>
+                    <div class="btn">
+                        <a href="#">[в корзину] [  <img src="img/Vector.svg" alt="">  ]</a>
+                    </div>
+                </div>
+                <div class="card wow animate__animated animate__fadeInDown">
+                    <img src="img/card7.png" alt="">
+                    <img class="like" src="img/like.svg" alt="">
+                    <div class="item-title">
+                        <h6>JEU</h6>
+                        <p>14 000 ₽</p>
+                    </div>
+                    <div class="btn">
+                        <a href="#">[в корзину] [  <img src="img/Vector.svg" alt="">  ]</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- каталог -->
+
+    <!-- бегущая строка -->
+    <div class="ticker">
+        <div class="ticker-wrapper">
+            <div class="ticker-item">АКЦИИ</div>
+            <div class="ticker-item">АКЦИИ</div>
+            <div class="ticker-item">АКЦИИ</div>
+            <div class="ticker-item">АКЦИИ</div>
+        </div>
+    </div>
+    <!-- бегущая строка -->
+
+    <!-- акции -->
+    <div class="promotion content">
+        <div class="promotion-title">
+            <h5 class="wow animate__animated animate__fadeInLeft"><span>лампа</span> FLOS Captain Flint <br> Floor </h5>
+            <div class="price wow animate__animated animate__fadeInRight">
+                <p>14 000 ₽</p>
+                <span>20 000 ₽</span>
+                <div class="btn">
+                    <a href="#">[в корзину] [  <img src="img/Vector.svg" alt="">  ]</a>
+                    <img src="img/like.svg" alt="">
+                </div>
+            </div>
+            <pre class="wow animate__animated animate__fadeInLeft">Успейте приобрести другие товары по низким<br>ценам     <a href="">смотреть <img src="img/arrow.svg" alt=""></a></pre>
+        </div>
+        <img class="wow animate__animated animate__fadeInDown" src="img/promotion.png" alt="">
+    </div>
+    <!-- акции -->
+
+    <!-- подписка -->
+    <div class="follow py">
+        <div class="content wow animate__animated animate__fadeInLeftBig">
+            <h5>Получайте свежие новости самыми первыми!</h5>
+            <form action=".">
+                <input type="text" placeholder="[ ИМЯ ]">
+                <input type="text" placeholder="[ ПОЧТА ]">
+                <button>[  <img src="img/formarrow.svg" alt="">  ]</button>
+            </form>
+        </div>
+    </div>
+    <!-- подписка -->
+
+    <!-- сотрудники -->
+    <section id="consultant" class="section content py" data-section="consultant">
+        <div class="title wow animate__animated animate__fadeInLeft">
+            <h3>ОНИ ПОМОГУТ ВАМ С ВЫБОРОМ</h3>
+            <h2>СОТРУДНИКИ</h2>
+        </div>
+        <div class="consultant wow animate__animated animate__fadeInRightBig">
+            <div class="card">
+                <img src="img/cons1.png" alt="">
+                <div class="card-title">
+                    <div class="line"></div>
+                    <h4>Миронов Артём</h4>
+                </div>
+                <p>Консультант</p>
+            </div>
+            <div class="card">
+                <img src="img/cons2.png" alt="">
+                <div class="card-title">
+                    <div class="line"></div>
+                    <h4>Титова Яна</h4>
+                </div>
+                <p>Консультант</p>
+            </div>
+            <div class="card">
+                <img src="img/cons3.png" alt="">
+                <div class="card-title">
+                    <div class="line"></div>
+                    <h4>Попов Даниэль</h4>
+                </div>
+                <p>Консультант</p>
+            </div>
+        </div>
+    </section>
+    <!-- сотрудники -->
+
+    <!-- партнеры -->
+    <marquee scrollamount="15" behavior="scroll" direction="right" >
+        <div class="partners py">
+            <img src="img/part1.png" alt="">
+            <img src="img/part2.png" alt="">
+            <img src="img/part3.png" alt="">
+            <img src="img/part4.png" alt="">
+            <img src="img/part5.png" alt="">
+        </div>
+    </marquee>
+    <!-- партнеры -->
+
+    <!-- новости -->
+    <section id="news" class="section content py" data-section="news">
+        <div class="title wow animate__animated animate__fadeInLeft">
+            <h3>СЛЕДИТЕ ЗА НАМИ</h3>
+            <h2>НОВОСТИ</h2>
+        </div>
+        <div class="news">
+            <div class="row wow animate__animated animate__fadeInDown">
+                <div class="main" style="width: 893px; padding-right: 30px;">
+                    <div class="date"><p>7 декабря 2023</p></div>
+                    <img src="img/new1.png" alt="">
+                    <div class="new-title"><p style="font-size: 24px;">Компания BAUHAUS представила новую <br> коллекцию мебели для дома и офиса.</p></div>
+                    <div class="btn"><a href="#">узнать больше <img src="img/arrow.svg" alt=""></a></div>
+                </div>
+                <div class="main" style="border-left: 1px solid black; padding-left: 30px;">
+                    <div class="date"><p>1 декабря 2023</p></div>
+                    <img src="img/new2.png" alt="">
+                    <div class="new-title"><p>BAUHAUS запустила акцию <br> "Скидки до 50%" на всю <br> мебельную продукцию.</p></div>
+                    <div class="btn"><a href="#">узнать больше <img src="img/arrow.svg" alt=""></a></div>
+                </div>
+            </div>
+            <div class="second-row wow animate__animated animate__fadeInDown">
+                <div class="main" style="border-bottom: 1px solid black;border-top: 1px solid black; padding-top: 30px; padding-right: 30px;">
+                    <div class="date"><p>30 ноября 2023</p></div>
+                    <img src="img/new3.png" alt="">
+                    <div class="new-title"><p>BAUHAUS начала выпускать <br>экологичные вазы для <br> растений.</p></div>
+                    <div class="btn"><a href="#">узнать больше <img src="img/arrow.svg" alt=""></a></div>
+                </div>
+                <div class="main" style="border-bottom: 1px solid black;border-top: 1px solid black; border-left: 1px solid black; padding-left: 30px; padding-top: 30px; padding-right: 30px;">
+                    <div class="date"><p>14 ноября 2023</p></div>
+                    <img src="img/new4.png" alt="">
+                    <div class="new-title"><p>BAUHAUS открыла новый <br> фирменный магазин в центре <br> города.</p></div>
+                    <div class="btn"><a href="#">узнать больше <img src="img/arrow.svg" alt=""></a></div>
+                </div>
+                <div class="main" style="border-bottom: 1px solid black;border-top: 1px solid black; border-left: 1px solid black;padding-top: 30px; padding-left: 30px;">
+                    <div class="date"><p>20 ноября 2023</p></div>
+                    <img src="img/new5.png" alt="">
+                    <div class="new-title"><p>BAUHAUS представила <br> специальную линейку мебели <br> для детской комнаты.</p></div>
+                    <div class="btn"><a href="#">узнать больше <img src="img/arrow.svg" alt=""></a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- новости -->
+
+    <!-- отзывы -->
+    <section id="reviews" class="section content py" data-section="reviews">
+        <div class="title wow animate__animated animate__fadeInLeft">
+            <h3>ВАШЕ МНЕНИЕ ВАЖНО ДЛЯ НАС</h3>
+            <h2>ОТЗЫВЫ</h2>
+        </div>
+        <div class="reviews">
+            <img class="bg" src="img/bgrevies.png" alt="">
+            <div class="slider-rev">
+                <div class="slider-rev-content">
+                    <input type="radio" name="r" id="r1">
+                    <input type="radio" name="r" id="r2">
+                    <input type="radio" name="r" id="r3">
+                    <div class="slide-rev s1 wow animate__animated animate__fadeInRightBig">
+                        <div class="slide-title">
+                            <h4>КСЕНИЯ ЦАРЕВА</h4>
+                            <span>12 ноября 2023</span>
+                        </div>
+                        <p>Мы заказали кухонный гарнитур в компании BAUHAUS и остались очень довольны качеством и сервисом. Мебель была изготовлена в срок, все детали были аккуратно упакованы, а монтаж прошел гладко и быстро. Рекомендуем эту компанию всем, кто ищет надежного производителя мебели.</p>
+                    </div>
+                    <div class="slide-rev wow animate__animated animate__fadeInRightBig">
+                        <div class="slide-title">
+                            <h4>ЮРИЙ ИВАНОВ</h4>
+                            <span>18 ноября 2023</span>
+                        </div>
+                        <p>У нас был заказ на изготовление шкафа-купе в компании BAUHAUS. Очень понравилось, что мы могли выбрать дизайн и размеры по своему вкусу, а также получить консультацию от опытных дизайнеров. Результат превзошел наши ожидания - шкаф выглядит стильно и функционально.</p>
+                    </div>
+                    <div class="slide-rev wow animate__animated animate__fadeInRightBig">
+                        <div class="slide-title">
+                            <h4>АЛИСА НОВИКОВА</h4>
+                            <span>5 ноября 2023</span>
+                        </div>
+                        <p>Я заказал у компании BAUHAUS мебель для гостиной, и остался очень доволен качеством товара и обслуживанием. Доставка была быстрой, мебель была упакована очень надежно, и все детали были в отличном состоянии. Рекомендую эту компанию всем, кто ищет качественную мебель по доступной цене.</p>
+                    </div>
+                    <div class="slide-rev wow animate__animated animate__fadeInRightBig">
+                        <div class="slide-title">
+                            <h4>ЮРИЙ ИВАНОВ</h4>
+                            <span>18 ноября 2023</span>
+                        </div>
+                        <p>У нас был заказ на изготовление шкафа-купе в компании BAUHAUS. Очень понравилось, что мы могли выбрать дизайн и размеры по своему вкусу, а также получить консультацию от опытных дизайнеров. Результат превзошел наши ожидания - шкаф выглядит стильно и функционально.</p>
+                    </div>
+                    <div class="slide-rev wow animate__animated animate__fadeInRightBig">
+                        <div class="slide-title">
+                            <h4>ЮРИЙ ИВАНОВ</h4>
+                            <span>18 ноября 2023</span>
+                        </div>
+                        <p>У нас был заказ на изготовление шкафа-купе в компании BAUHAUS. Очень понравилось, что мы могли выбрать дизайн и размеры по своему вкусу, а также получить консультацию от опытных дизайнеров. Результат превзошел наши ожидания - шкаф выглядит стильно и функционально.</p>
+                    </div>
+                    <div class="slide-rev wow animate__animated animate__fadeInRightBig">
+                        <div class="slide-title">
+                            <h4>АЛИСА НОВИКОВА</h4>
+                            <span>5 ноября 2023</span>
+                        </div>
+                        <p>Я заказал у компании BAUHAUS мебель для гостиной, и остался очень доволен качеством товара и обслуживанием. Доставка была быстрой, мебель была упакована очень надежно, и все детали были в отличном состоянии. Рекомендую эту компанию всем, кто ищет качественную мебель по доступной цене.</p>
+                    </div>
+                    <div class="navigation wow animate__animated animate__fadeInLeftBig">
+                        <label for="r1" class="lab1 lab" onclick="changeColor1()"></label>
+                        <label for="r2" class="lab2 lab" onclick="changeColor2()"></label>
+                        <label for="r3" class="lab3 lab" onclick="changeColor3()"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- отзывы -->
+
+    <!-- faq -->
+    <section id="faq" class="section content py" data-section="faq">
+        <div class="title wow animate__animated animate__fadeInLeft">
+            <h3>НАЙДИТЕ БЫСТРЫЕ ОТВЕТЫ</h3>
+            <h2>FAQ</h2>
+        </div>
+        <div class="faq">
+            <div class="faq-form wow animate__animated animate__fadeInLeft">
+                <p>Не нашли ответ на свой вопрос? <br> Мы с радостью поможем Вам!</p>
+                <form action=".">
+                    <input type="text" placeholder="[ВВЕДИТЕ ВАШ ВОПРОС]">
+                    <button>[  <img src="img/formarrow.svg" alt="">  ]</button>
+                </form>
+            </div>
+            <div class="faq-accordion">
+                <div class="accordion wow animate__animated animate__fadeInDown">
+                    <input id="toggle1" type="checkbox" class="accordion-toggle"/>
+                    <label for="toggle1"><pre>01                    Как оформить заказ?</pre></label>
+                    <section>
+                      <p>Добавьте товар в корзину, указав необходимое количество → Заполните форму заказа, указав свои контактные данные, адрес доставки и выберите удобный способ оплаты → После оформления заказа вы должны получить подтверждение о его принятии, а также информацию о дальнейших шагах (доставка, оплата и т. д.).
+                      </p>
+                    </section>
+                </div>
+                <div class="accordion wow animate__animated animate__fadeInDown">
+                    <input id="toggle2" type="checkbox" class="accordion-toggle"/>
+                    <label for="toggle2"><pre>02                    Сколько дней длится доставка?</pre></label>
+                    <section>
+                      <p>Доставка производится со склада г. Казани. Чтобы узнать точные сроки доставки, рекомендуется обратиться к службе поддержки клиентов мебельной компании. Они смогут предоставить вам информацию о конкретных сроках доставки для выбранной вами мебели и вашего региона.</p>
+                    </section>
+                </div>
+                <div class="accordion wow animate__animated animate__fadeInDown">
+                    <input id="toggle3" type="checkbox" class="accordion-toggle"/>
+                    <label for="toggle3"><pre>03                    Как сделать возврат?</pre></label>
+                    <section>
+                      <p>При обращении за возвратом товара важно иметь при себе чек или иной документ, подтверждающий покупку. Также уточните условия возврата: возможность возврата денег, обмен на другой товар или получение кредита на сумму возвращаемого товара.</p>
+                    </section>
+                </div>
+                <div class="accordion wow animate__animated animate__fadeInDown">
+                    <input id="toggle4" type="checkbox" class="accordion-toggle"/>
+                    <label for="toggle4"><pre>04                    Есть ли самовывоз?</pre></label>
+                    <section>
+                      <p>Для уточнения наличия возможности самовывоза из мебельной компании, рекомендуется обратиться напрямую в отдел обслуживания клиентов данной компании. Обычно информация о возможности самовывоза указана на официальном сайте компании или может быть предоставлена по телефону или электронной почте.</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- faq -->
+
+    <!-- контакты -->
+    <section id="contact" class="section content py" data-section="contact">
+        <div class="title wow animate__animated animate__fadeInLeft">
+            <h3>МЫ БУДЕМ РАДЫ СВЯЗАТЬСЯ С ВАМИ!</h3>
+            <h2>КОНТАКТЫ</h2>
+        </div>
+        <div class="contacts">
+            <div class="contact-info">
+                <div class="contact-title wow animate__animated animate__fadeInDown">
+                    <span>Директор</span>
+                    <p>Юлия Олеговна <br>
+                        <a href="mail:julia.ol@mail.ru">julia.ol@mail.ru</a>
+                    </p>
+                </div>
+                <div class="contact-title wow animate__animated animate__fadeInDown">
+                    <span>Телефон</span>
+                    <a href="tel:+7(432)-443-43-54">+ 7 [432] - 443 - 43 - 54</a>
+                </div>
+                <div class="contact-title wow animate__animated animate__fadeInDown">
+                    <span>Режим работы</span>
+                    <p>9:00 — 21:00</p>
+                </div>
+            </div>
+            <div class="contact-info">
+                <div class="contact-title wow animate__animated animate__fadeInDown">
+                    <span>Адрес</span>
+                    <p>г. Казань
+                        <br> ул. Галеева д.3
+                    </p>
+                </div>
+                <div class="contact-title wow animate__animated animate__fadeInDown">
+                    <span>Почта</span>
+                    <a href="mail:bauhaus@mail.ru">bauhaus@mail.ru</a>
+                </div>
+                <div class="contact-title wow animate__animated animate__fadeInDown">
+                    <span>Соц. сети</span>
+                    <div class="net">
+                        <a href="#">Tg</a>
+                        <a href="#">Vk</a>
+                        <a href="#">Yt</a>
+                    </div>
+                </div>
+            </div>
+            <iframe class="wow animate__animated animate__fadeInRight" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2242.516600072609!2d49.17465677688466!3d55.80163137310229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415eb281ef8e4d65%3A0x5b12cc06fe4a5dfe!2z0JrQsNC30LDQvdGB0LrQuNC5INGC0LXRhdC90LjQutGD0Lwg0LjQvdGE0L7RgNC80LDRhtC40L7QvdC90YvRhSDRgtC10YXQvdC-0LvQvtCz0LjQuSDQuCDRgdCy0Y_Qt9C4!5e0!3m2!1sru!2sru!4v1702843109517!5m2!1sru!2sru" width="600" height="300" style="border:0; filter: grayscale(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <!-- контакты -->
+
+    <!-- подвал -->
+    <footer>
+        <div class="footer content">
+            <div class="foot-info wow animate__animated animate__fadeInLeft">
+                <span>СЕРВИС</span>
+                <div class="link">
+                    <a href="#">Оплата</a>
+                    <a href="#">Рассрочка</a>
+                    <a href="#">Обратная связь</a>
+                    <a href="#">Утилизация</a>
+                    <a href="#">Гарантия</a>
+                </div>
+            </div>
+            <div class="foot-info wow animate__animated animate__fadeInLeft">
+                <span>КЛИЕНТАМ</span>
+                <div class="link">
+                    <a href="#">Подарочные карты</a>
+                    <a href="#">Кредитный калькулятор</a>
+                    <a href="#">Советы по выбору</a>
+                    <a href="#">Условия оферты</a>
+                </div>
+            </div>
+            <div class="foot-info wow animate__animated animate__fadeInLeft">
+                <span>СЕРВИС</span>
+                <div class="link">
+                    <a href="#">Новости</a>
+                    <a href="#">Вакансии</a>
+                    <a href="#">Франшиза</a>
+                </div>
+            </div>
+            <div class="logo wow animate__animated animate__fadeInRight">
+                <img src="img/logofoot.svg" alt="">
+                <p>BAU<br>HAUS</p>
+            </div>
+        </div>
+        <nav class="wow animate__animated animate__fadeInUp">
+            <a href="#" >главная</a>
+            <a href="#about" >о нас</a>
+            <a href="#catalog" >каталог</a>
+            <a href="#contact" >контакты</a>
+        </nav>
+    </footer>
+    <!-- подвал -->
+
+    <!-- корзина -->
+    <div class="popup popup-close popup-open" id="popup">
+        <div class="popup-body" id="popup-body">
+            <div class="close">
+                <h5>Корзина</h5>
+                <div id="close-popup">&#10006</div>
+            </div>
+            <p>Добавьте товары.</p>
+        </div>
+    </div>
+    <!-- корзина -->
+
+    <!-- скрипт -->
+    <script src="wow.min.js"></script>
+
+    <script>
+        // слайдер
+        let slideIndex = 1;
+        showSlide(slideIndex);
+    
+        function plusSlide(n) {
+          showSlide(slideIndex += n);
+        }
+    
+        function showSlide(n) {
+          let slides = document.getElementsByClassName("slide");
+          if (n > slides.length) slideIndex = 1
+          if (n < 1) slideIndex = slides.length
+          for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slides[slideIndex-1].style.display = "block";
+        }
+        // слайдер
+
+        // переключатель
+        document.addEventListener('DOMContentLoaded', function() {
+            const navInit = () => {
+                const nav = document.querySelector('.switch-panel')
+                const links = document.querySelectorAll('.panel')
+                const sections = document.querySelectorAll('.section')
+                sections.forEach(section => {
+                    if (window.pageYOffset >= section.offsetTop) {
+                        links.forEach(link => {
+                            link.classList.remove('panel_active')
+                            if (link.dataset.section === section.dataset.section) {
+                                link.classList.add('panel_active')
+                            }
+                        })
+                    }
+                })
+            }
+            navInit()
+            window.addEventListener('scroll', () => {
+                navInit()
+            })
+            window.addEventListener('resize', () => {
+                navInit()
+            })
+        })
+        // переключатель
+
+        // корзина
+        const btn = document.getElementById('open-popup');
+
+        function openPopup() {
+            document.getElementById('popup').classList.add('popup-open')
+            document.getElementById('popup').classList.remove('popup-close')
+        }
+
+        function closePopup() {
+            document.getElementById('popup').classList.remove('popup-open')
+            document.getElementById('popup').classList.add('popup-close')
+        }
+
+        btn.onclick = function () {
+            openPopup()
+            document.body.style.overflow = "hidden"
+        }
+
+        document.getElementById('close-popup').onclick = function() {
+            closePopup()
+            document.body.style.overflow = "visible"
+        }
+        // корзина
+
+        // слайдер отзывов
+        window.addEventListener('load', () => {
+            const sec = document.querySelector(".lab1");
+            sec.style.background = '#000000';
+        });
+        function changeColor1() {
+            const sec = document.querySelector(".lab1");
+            sec.style.background = '#000000';
+            const sec2 = document.querySelector(".lab2");
+            const sec3 = document.querySelector(".lab3");
+            sec2.style.background = '#dcdcdc';
+            sec3.style.background = '#dcdcdc';
+        }
+        function changeColor2() {
+            const sec = document.querySelector(".lab2");
+            sec.style.background = '#000000';
+            const sec2 = document.querySelector(".lab1");
+            const sec3 = document.querySelector(".lab3");
+            sec2.style.background = '#dcdcdc';
+            sec3.style.background = '#dcdcdc';
+        }
+        function changeColor3() {
+            const sec = document.querySelector(".lab3");
+            sec.style.background = '#000000';
+            const sec2 = document.querySelector(".lab2");
+            const sec3 = document.querySelector(".lab1");
+            sec2.style.background = '#dcdcdc';
+            sec3.style.background = '#dcdcdc';
+        }
+        // слайдер отзывов
+
+        // wow-js
+        new WOW().init();
+        // wow-js
+    </script>
+    <!-- скрипт -->
+</body>
+</html>
